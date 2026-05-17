@@ -21,7 +21,7 @@ Bu kod sadeleiştirilen ham verileri görselleştiren bir script.
 ## TrainAndTest.py
 
 ```bash
-python Tools/CSV_Visualizer.py <SimpVeri>
+python TrainAndTest.py <SimpVeri>
 ```
 
 Sadeleştirilen veri öğrenmeye girerek gelecek verileri oluşturur ve görselleştirir.
