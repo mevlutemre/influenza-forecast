@@ -65,9 +65,9 @@ def train_and_test(CSV_PATH):
     plt.tight_layout()
 
     # Save graph
-    # plt.savefig("Final_Graph.png", dpi=300)
+    plt.savefig("Final_Graph.png", dpi=600)
     # print("[TRAIN-TEST] Graphics Saved: 'Final_Graph.png' ")
-    # plt.show()
+    plt.show()
 
 if __name__  ==  "__main__":
     if len(sys.argv) < 2:

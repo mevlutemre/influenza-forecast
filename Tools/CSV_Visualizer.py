@@ -57,6 +57,8 @@ def visualize(CSVPath):
 
     plt.gcf().autofmt_xdate() 
     plt.tight_layout()
+
+    plt.savefig("Raw_Data_Graph.png", dpi=600)
     plt.show()
 
 if __name__  ==  "__main__":
